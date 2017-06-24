@@ -38,13 +38,17 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.3.0'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
 
     // deep learning dependencies
     compile 'org.deeplearning4j:deeplearning4j-core:0.7.2'
     compile 'org.nd4j:nd4j-native:0.7.2'
     compile 'org.nd4j:nd4j-native:0.7.2:android-x86'
     compile 'org.nd4j:nd4j-native:0.7.2:android-arm'
+
+    compile 'com.android.support:appcompat-v7:25.3.0'
+    compile 'com.android.support:design:25.3.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:support-v4:25.3.0'
+
     testCompile 'junit:junit:4.12'
 }
